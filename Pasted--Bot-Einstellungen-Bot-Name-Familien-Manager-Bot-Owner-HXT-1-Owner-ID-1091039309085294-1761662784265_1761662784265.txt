@@ -1,0 +1,146 @@
+🔹 Bot-Einstellungen
+	•	Bot-Name: Familien-Manager
+	•	Bot-Owner: HXT 1
+	•	Owner-ID: 1091039309085294733
+	•	Erlaubte Server:
+	•	1356133600201932850
+	•	1325218478772457542
+
+Der Bot soll nur auf diesen beiden Servern funktionieren.
+
+Der Bot soll Prefix-Commands mit ! und zusätzlich einige Slash-Commands haben (z. B. /nick).
+
+⸻
+
+⚙️ Commands
+
+🧹 !clear <Anzahl>
+	•	Löscht bis zu 100 Nachrichten im aktuellen Channel.
+	•	Keine besondere Berechtigung erforderlich.
+
+🔨 !ban <@User> [Grund]
+	•	Bannt einen User dauerhaft vom Server.
+	•	Nur erlaubt für Rolle <@&1432461398344077434>.
+
+⏳ !timeout <@User> <Minuten> [Grund]
+	•	Gibt einem User einen Timeout.
+	•	Nur erlaubt für Rolle <@&1432461398344077434>.
+
+
+🎭 !role <@User> <@Rolle>
+	•	Gibt oder entfernt einem User eine bestimmte Rolle.
+	•	Nur erlaubt für Rolle <@&1432461398344077434>.
+
+⸻
+
+⚔️ Event Commands
+
+🪖 !army
+	•	Sendet eine Army-Event-Ankündigung als Embed mit Titel, Beschreibung und passendem Bild.
+	•	Nur erlaubt für Rolle <@&1432461398344077434>.
+
+⚓ !hafen
+	•	Sendet eine Hafenraub-Ankündigung als Embed.
+	•	Nur erlaubt für Rolle 
+
+⸻
+
+🎭 Fun Commands
+
+💀 !cosanostra
+	•	Erzählt eine kurze, coole Geschichte über die Mafia / Cosa Nostra.
+	•	Keine Berechtigung.
+
+📏 !yaro
+	•	Gibt eine zufällige Zahl zwischen 1 und 30 cm zurück.
+	•	Keine Berechtigung.
+
+💬 !azul
+	•	Antwortet mit einem Spruch („Azul die piçes“).
+	•	Keine Berechtigung.
+
+🎰 !casino
+	•	Casino-Spiel mit Buttons (Slot Machine mit 3 Reihen und Symbolen wie 🍒🍋7️⃣).
+	•	Eigene Währung.
+	•	Nur im Channel:
+    - Work Funktion 
+    - Toillete
+https://discord.com/channels/1356133600201932850/1432484490738925620
+	•	Keine Berechtigung.
+
+⸻
+
+📑 Server-Systeme
+
+🎫 !setupticket
+	•	Erstellt ein Ticket-System mit 3 Kategorien:
+	•	Beschwerden
+	•	Support
+        - Bewerben
+	•	Ticket enthält ein Embed mit Titelbild und bei Kategorie wenn man drückt bewerben kommen diese Fragen:
+	1.	Wieviel Spraydosen hast du
+	2.	Wie aktiv bist du
+	3.	Welche Gang/Familie warst du davor
+	4.	Welche AK-Level hast du
+	5.	Siehst du dich als guter Schütze?
+	6.	Was willst du in unserer Familie erreichen?
+	7.	Was erwartest du von unserer Familie?
+	8.	Wann bist du am aktivsten?
+	9.	Dein OneState RP-Name (Vor- und Nachname)
+	•	Nur erlaubt für Rolle <@&1432461398344077434>.
+
+🗑️ !closeticket
+	•	Schließt ein Ticket.
+	•	Nur erlaubt für Rolle <@&1432461398344077434>.
+
+🧾 !embed
+	•	Lässt den Nutzer ein Embed erstellen (Titel, Beschreibung, Farbe, Bild etc. anpassen).
+	•	Nur erlaubt für Rolle <@&1432461398344077434>.
+
+🧬 !familie
+	•	Zeigt alle Mitglieder vom Server mit Anzeigenamen und role in einem schönen embed
+	•	Mit passendem Familienbild.
+	•	Nur erlaubt für Rolle <@&1432461398344077434>.
+
+🕓 !events
+	•	Sendet Hafenzeiten und Armyzeiten in formatierten Embeds mit Bold Sans Font und passenden Bildern:
+	•	Sommer: „HAFEN-SOMMER“
+	•	Winter: „HAFEN-WINTER“
+	•	Zeiten:
+	•	Sommer Hafen: 13 | 15 | 17 | 19 | 21 | 23 Uhr
+	•	Sommer Army: 12 | 14 | 16 | 18 | 20 | 22 Uhr
+	•	Winter Hafen: 12 | 14 | 16 | 18 | 20 | 22 Uhr
+	•	Winter Army: 13 | 15 | 17 | 19 | 21 | 23 Uhr
+	•	Keine Berechtigung.
+
+💡 !vorschlag
+	•	User kann über ein Formular eine Idee einreichen.
+	•	Nachricht wird in diesen Kanal geschickt:
+https://discord.com/channels/1356133600201932850/1356163245228163103.
+	•	Keine Berechtigung.
+
+⸻
+
+⸻
+
+📜 !commands
+	•	Zeigt eine übersichtliche Liste aller Commands im orangenen Embed mit schöner Formatierung (Bold Sans Schrift). Und passende Emojis zu den Commando 
+
+⸻
+
+🧠 Zusatz:
+	•	Der Bot soll alle Commands automatisch registrieren.
+	•	Token wird manuell von mir hinzugefügt.
+	•	Rollen-ID, Server-IDs und Channel-Links müssen direkt im Code berücksichtigt werden.
+	•	Der Bot soll beim Start eine Meldung in der Konsole zeigen:
+"Familien-Manager ist online ✅ – erstellt von HXT 1"
+
+Und ich werd den bot dann bei Pella.app Hosten das heißt der bot soll spezifisch auch für pella.app geeignet sein 
+
+Erstell auch Gleitzeitig eine ENV Datei wo ich dann den Token reinsetze!!
+
+Er soll gleichzeitig auch ein online und offline Command mache 
+
+!online = bot schickt ein Grünes embed rein wo er schreibt das der User on ist der diese narchicht geschickt hat 
+
+!offline = bot schickt ein rotes embed rein wo er schreibt das der User Off ist der diese narchicht geschickt hat 
